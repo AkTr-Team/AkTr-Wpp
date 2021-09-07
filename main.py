@@ -35,7 +35,7 @@ try:
 	os.system('apt install figlet')
 except:
 		os.system('pacman -Sy figlet')
-wp = f'''{result}\n{C}__ {G}AkTr (Créditos Kiny)!{C} __\n{C}==================\n{info} Olá, Eu Sou AkTr, apenas editei essa script,\nCRIADOR OFC DA SCRIPT: KINY\n\nEu (AkTr) Apenas Editei a Script, Mais O Criador Real Foi o Kiny:)\n{C}=================='''
+wp = f'''{result}\n{C}__ {G}AkTr (Créditos Kiny)!{C} __\n{C}==================\n{info} Olá, Eu Sou AkTr, apenas editei essa script,\nCRIADOR OFC DA SCRIPT: KINY\n\nEu (AkTr) Apenas Editei a Script, Mais O Criador Real Foi o Kiny:)\nLembre-Se de Ativar a Função 'Apps Menos Seguros' Na sua Conta\n{C}=================='''
 main = f'''
 {wp}\n{C}[{G}1{C}] Desativar Numero
 {C}[{G}2{C}] Tirar Número do Contador
