@@ -32,7 +32,8 @@ except:
 	if os.path.exists('.git'):
 		pass
 	else:
-		print(f"{error} Não Há Componente Git na Script!!")
+		print(f"{error} Não Há Componente Git na Script. INICIANDO SCRIPT")
+		Sair = True
 try:
 	subprocess.check_output('apt update -y', shell=True)
 	os.system('apt install figlet')
